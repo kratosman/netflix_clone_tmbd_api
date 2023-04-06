@@ -1,8 +1,9 @@
 var containerImg = document.querySelector('.container-img');
 var netflixOrigImg = document.querySelector('.netflix-orig-img');
 var cover = document.querySelector('.cover');
+import MOVIE_API_KEY from './env.js';
 
-var apiKey = apiKeyEnv;
+var apiKey = MOVIE_API_KEY;
 let isDragging = false;
 let startPosition;
 let currentTranslate = 0;
