@@ -2,7 +2,7 @@ var containerImg = document.querySelector('.container-img');
 var netflixOrigImg = document.querySelector('.netflix-orig-img');
 var cover = document.querySelector('.cover');
 
-var apiKey = '538dc322c0b43d2bcfcc98852172bf3e';
+var apiKey = apiKeyEnv;
 let isDragging = false;
 let startPosition;
 let currentTranslate = 0;
